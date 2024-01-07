@@ -9,5 +9,6 @@ void main() {
   students.add("Ayan"); //Add Student
   students.remove("Shayan"); //Remove Specific Student
   students.insert(0, "ABC"); //Insert Student using index no or Position
+  students.remove("Daniyal");
   print(students);
 }
