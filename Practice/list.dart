@@ -10,5 +10,6 @@ void main() {
   students.remove("Shayan"); //Remove Specific Student
   students.insert(0, "ABC"); //Insert Student using index no or Position
   students.remove("Daniyal");
+  students.replaceRange(students.length - 1, students.length, ["Zain"]);
   print(students);
 }
