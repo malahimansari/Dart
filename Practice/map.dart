@@ -5,4 +5,8 @@ void main() {
     "City": "Karachi",
   };
   print(students_information);
+
+  // if country doesn't exists in map so add using "putIfAbsent" map method
+  students_information.putIfAbsent("Country", () => "Pakistan");
+  print(students_information);
 }
