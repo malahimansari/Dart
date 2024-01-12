@@ -9,4 +9,6 @@ void main() {
   // if country doesn't exists in map so add using "putIfAbsent" map method
   students_information.putIfAbsent("Country", () => "Pakistan");
   print(students_information);
+
+  print(students_information.isEmpty); //if list is empty so show the true
 }
