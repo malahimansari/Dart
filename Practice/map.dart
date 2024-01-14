@@ -11,4 +11,7 @@ void main() {
   print(students_information);
 
   print(students_information.isEmpty); //if list is empty so show the true
+
+  students_information.clear(); //clear map
+  print(students_information);
 }
