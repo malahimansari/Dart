@@ -20,20 +20,24 @@ void main() {
   // ];
 
   // print(obj);
-  String email = "abcd@gmail.com";
-  String password = "123";
+  // String email = "abcd@gmail.com";
+  // String password = "123";
 
-  bool whileLoop = true;
-  while (whileLoop) {
-    if (email == "abc@gmail.com" && password == "123") {
-      print("login successfull");
-      whileLoop = false;
-    } else {
-      print("login failed");
-      print("try again");
-      print("=====================");
-      email = "abc@gmail.com";
-      password = "123";
-    }
-  }
+  // bool whileLoop = true;
+  // while (whileLoop) {
+  //   if (email == "abc@gmail.com" && password == "123") {
+  //     print("login successfull");
+  //     whileLoop = false;
+  //   } else {
+  //     print("login failed");
+  //     print("try again");
+  //     print("=====================");
+  //     email = "abc@gmail.com";
+  //     password = "123";
+  //   }
+  // }
+
+  do {
+    print("hello");
+  } while (false);
 }
