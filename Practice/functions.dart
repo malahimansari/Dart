@@ -1,7 +1,7 @@
 void main() {
   table(5);
-  newFunc(name: "Shaheer", country: "UAE");
-  newFunc(name: "Malahim");
+  // newFunc(name: "Shaheer", country: "UAE");
+  // newFunc(name: "Malahim");
 }
 
 table(int number) {
@@ -11,6 +11,7 @@ table(int number) {
   }
 }
 
-newFunc({required String name, String country = "Pakistan"}) {
-  print(name + " from " + country);
-}
+// newFunc({required String name, String country = "Pakistan"}) {
+//   print(name + " from " + country);
+// }
+
